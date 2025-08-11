@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annabelle Dias Felix - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#64748b',
+                        accent: '#3b82f6'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="text-xl font-bold text-primary">Annabelle Dias Felix</h1>
+                </div>
+                <div class="flex items-center space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-primary transition-colors">About</a>
+                    <a href="#projects" class="text-gray-700 hover:text-primary transition-colors">Projects</a>
+                    <a href="#publications" class="text-gray-700 hover:text-primary transition-colors">Publications</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">
+                        Dr. Annabelle Dias Felix
+                    </h2>
+                    <p class="text-xl text-gray-600 mb-6">
+                        Political Scientist & Researcher specializing in Latin American Studies, Police Work, and Social Inclusion
+                    </p>
+                    <p class="text-lg text-gray-700 mb-8">
+                        Currently a Postdoctoral Fellow at CICS.NOVA / Universidade NOVA de Lisboa, Portugal. 
+                        Expert in public security policies, police practices, and governance in Latin America.
+                    </p>
+                    <div class="flex space-x-4">
+                        <button id="downloadCV" class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                            Download CV
+                        </button>
+                        <button id="contactBtn" class="border-2 border-primary text-primary px-6 py-3 rounded-lg hover:bg-primary hover:text-white transition-colors">
+                            Get in Touch
+                        </button>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <img src="Profile Image.jpeg" alt="Annabelle Dias Felix" class="w-80 h-80 rounded-full object-cover shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Experience -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-8">Education</h3>
+                    <div class="space-y-6">
+                        <div class="border-l-4 border-primary pl-6">
+                            <h4 class="text-xl font-semibold text-gray-900">Ph.D. Political Science</h4>
+                            <p class="text-gray-600">University of Montréal (2022)</p>
+                            <p class="text-sm text-gray-500">Thesis: Police work in the streets, from Mexico to Rio de Janeiro</p>
+                            <p class="text-sm text-primary font-medium">With "excellent" mention</p>
+                        </div>
+                        <div class="border-l-4 border-primary pl-6">
+                            <h4 class="text-xl font-semibold text-gray-900">M.A. Latin American Studies</h4>
+                            <p class="text-gray-600">Institut des Hautes Études sur l'Amérique latine (IHEAL), Sorbonne Nouvelle University (2014)</p>
+                            <p class="text-sm text-primary font-medium">With honours</p>
+                        </div>
+                        <div class="border-l-4 border-primary pl-6">
+                            <h4 class="text-xl font-semibold text-gray-900">B.A. Applied Foreign Languages</h4>
+                            <p class="text-gray-600">Sorbonne Nouvelle University (2012)</p>
+                            <p class="text-sm text-primary font-medium">With honours</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-8">Professional Experience</h3>
+                    <div class="space-y-6">
+                        <div class="border-l-4 border-accent pl-6">
+                            <h4 class="text-xl font-semibold text-gray-900">Postdoctoral Fellow</h4>
+                            <p class="text-gray-600">CICS.NOVA / Universidade NOVA de Lisboa (2023 - ongoing)</p>
+                        </div>
+                        <div class="border-l-4 border-accent pl-6">
+                            <h4 class="text-xl font-semibold text-gray-900">Teaching & Research Assistant</h4>
+                            <p class="text-gray-600">Political Science Department, University of Montréal (2015-2022)</p>
+                        </div>
+                        <div class="border-l-4 border-accent pl-6">
+                            <h4 class="text-xl font-semibold text-gray-900">Lecturer</h4>
+                            <p class="text-gray-600">Political Science Department, University of Montréal (2021)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-gray-900 mb-12 text-center">Featured Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">ÉRIGAL Research Team</h4>
+                    <p class="text-gray-600 mb-4">Project manager for the Research Team on Inclusion and Governance in Latin America (2017-2021). Organized academic events and research collaborations.</p>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">Research Management</span>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">RÉLAM Network</h4>
+                    <p class="text-gray-600 mb-4">Project manager for the Latin American Studies Network of Montreal (2016-2019). Facilitated academic collaboration and knowledge exchange.</p>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">Network Development</span>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+                    <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-3">CEMC Chair</h4>
+                    <p class="text-gray-600 mb-4">Project manager for the Chaire d'études du Mexique contemporain (CEMC), affiliated to the Montreal Centre for International Studies (2016-2017).</p>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">International Studies</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Publications -->
+    <section id="publications" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-gray-900 mb-12 text-center">Featured Publications</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center mb-4">
+                        <div class="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
+                        <span class="text-sm text-gray-500">Journal Article</span>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Police Work in the Streets</h4>
+                    <p class="text-gray-600 mb-3">Research on police practices from Mexico to Rio de Janeiro, examining public security policies and social representations.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded">Political Science</span>
+                        <span class="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded">Latin America</span>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center mb-4">
+                        <div class="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+                        <span class="text-sm text-gray-500">Book Chapter</span>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Policing the Global South</h4>
+                    <p class="text-gray-600 mb-3">Contribution to Routledge publication on colonial legacies, pluralities, partnerships, and reforms in policing.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded">Global South</span>
+                        <span class="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded">Colonial Studies</span>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors">
+                    <div class="flex items-center mb-4">
+                        <div class="w-3 h-3 bg-purple-500 rounded-full mr-3"></div>
+                        <span class="text-sm text-gray-500">Book Chapter</span>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">Inclusion, Citizenship & Governance</h4>
+                    <p class="text-gray-600 mb-3">Research on inclusion, citizenship, and governance in Latin America, published by Presses de l'Université de Montréal.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded">Governance</span>
+                        <span class="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded">Citizenship</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages & Skills -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-gray-900 mb-12 text-center">Languages & Skills</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-6">Languages</h4>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-700">French</span>
+                            <span class="text-primary font-medium">Native Speaker</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-700">Portuguese</span>
+                            <span class="text-primary font-medium">Native Speaker</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-700">Spanish</span>
+                            <span class="text-primary font-medium">Advanced</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-700">English</span>
+                            <span class="text-primary font-medium">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-6">Research Areas</h4>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="bg-primary text-white px-4 py-2 rounded-full text-sm">Political Science</span>
+                        <span class="bg-primary text-white px-4 py-2 rounded-full text-sm">Latin American Studies</span>
+                        <span class="bg-primary text-white px-4 py-2 rounded-full text-sm">Public Security</span>
+                        <span class="bg-primary text-white px-4 py-2 rounded-full text-sm">Police Studies</span>
+                        <span class="bg-primary text-white px-4 py-2 rounded-full text-sm">Governance</span>
+                        <span class="bg-primary text-white px-4 py-2 rounded-full text-sm">Social Inclusion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get in Touch Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl font-bold text-gray-900 mb-12 text-center">Get in Touch</h3>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h4 class="text-xl font-semibold text-gray-900 mb-6">Contact Information</h4>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                            <span class="text-gray-700">annabelle.diasfelix@gmail.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                            <span class="text-gray-700">Caxias, Portugal</span>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                            </svg>
+                            <span class="text-gray-700">(+351) 962511107</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form id="contactForm" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                            <input type="text" id="name" name="name" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                            <input type="email" id="email" name="email" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-primary text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400">&copy; 2024 Annabelle Dias Felix. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Download CV button functionality
+            document.getElementById('downloadCV').addEventListener('click', function() {
+                // You can update this to point to the actual CV file
+                alert('CV download functionality - link to actual CV file here');
+            });
+
+            // Contact button scroll to contact section
+            document.getElementById('contactBtn').addEventListener('click', function() {
+                document.getElementById('contact').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+
+            // Contact form submission
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+                
+                // Simple form validation
+                if (name && email && message) {
+                    alert(`Thank you for your message, ${name}! I'll get back to you at ${email} soon.`);
+                    this.reset();
+                } else {
+                    alert('Please fill in all fields.');
+                }
+            });
+
+            // Add some interactive effects
+            const projectCards = document.querySelectorAll('#projects .bg-white');
+            projectCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+
+            // Add loading animation for images
+            const profileImage = document.querySelector('img[src="Profile Image.jpeg"]');
+            if (profileImage) {
+                profileImage.addEventListener('load', function() {
+                    this.style.opacity = '1';
+                });
+                profileImage.style.opacity = '0';
+                profileImage.style.transition = 'opacity 0.5s ease-in';
+            }
+        });
+    </script>
+</body>
+</html>
