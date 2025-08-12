@@ -318,8 +318,16 @@
 
             // Download CV button functionality
             document.getElementById('downloadCV').addEventListener('click', function() {
-                // You can update this to point to the actual CV file
-                alert('CV download functionality - link to actual CV file here');
+                // Create a temporary link element to trigger the download
+                const link = document.createElement('a');
+                link.href = 'CV_Annabelle Dias Felix_Jan24.pdf';
+                link.download = 'CV_Annabelle_Dias_Felix.pdf';
+                link.style.display = 'none';
+                
+                // Append to body, click, and remove
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
             });
 
             // Contact button scroll to contact section
